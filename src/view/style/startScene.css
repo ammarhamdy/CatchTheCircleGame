@@ -1,0 +1,7 @@
+.borderPane{
+    -fx-background-color: AQUAMARINE;
+}
+.text{
+    -fx-font-size: 90px;
+    -fx-fill: rgba(205, 73, 139, 0.76);
+}

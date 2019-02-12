@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Text?>
+<Scene width="550" height="550" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.StartSceneController">
+    <BorderPane styleClass="borderPane">
+        <center>
+            <StackPane>
+                <StackPane  fx:id="playGroundContainer" onMousePressed="#start"/>
+                <Text styleClass="text" text="0" fx:id="counterText"/>
+            </StackPane>
+        </center>
+    </BorderPane>
+
+    <stylesheets>
+        <!--<URL value="@/view/style/shared.css"/>-->
+        <URL value="@/view/style/startScene.css"/>
+    </stylesheets>
+
+</Scene>
